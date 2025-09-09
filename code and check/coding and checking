@@ -1,0 +1,44 @@
+console.log(25 + 5);   
+console.log(25 - 5);   
+console.log(25 * 5);   
+console.log(25 / 5);   
+
+console.log(123 % 10);  //find the rem
+
+
+console.log(1/0);
+console.log(-1/0);
+console.log(0/0);
+console.log(123/123);
+
+
+
+let first = "bodhisatta";
+let last = "kumar";
+console.log(first + " " + last);
+
+console.log("hi paplu da");
+
+//unary
+console.log(typeof 123);
+console.log(typeof asdf);
+console.log(typeof false);
+
+console.log(10 > 50);
+console.log(10 < 50);
+console.log(10 == 10);
+console.log(10 != 10);
+console.log(10 === 10);
+
+//compare
+console.log("apple" < "banana");
+console.log("pen" < "apple");
+
+//logical
+console.log(true && false);
+console.log(true || false);
+console.log(!false);
+
+
+let  num = 7878;
+console.log(num % 2 == 0 ? "even" : "odd");

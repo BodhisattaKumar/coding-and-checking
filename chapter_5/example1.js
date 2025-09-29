@@ -1,15 +1,9 @@
-//function to create new function 
-function greaterThan(n) {
-  return function(m) {
-    return m > n;
-  };
-}
+/* Write a higher-order function filter (like the built-in Array.prototype.filter).
 
-var greaterThan10 = greaterThan(10);
+Takes an array and a test function.
 
-console.log(greaterThan10(11)); 
-
-
+Returns a new array with only elements that pass the test.
+*/
 
 function filter(array, test) {
   let result = [];
@@ -19,9 +13,9 @@ function filter(array, test) {
   return result;
 }
 
-// Usage:
+
 console.log(filter([1,2,3,4,5,6], n => n % 2 === 0));
-// → [2,4,6]
+
 
 console.log(filter(["apple","bat","cat"], w => w.length > 3));
-// → ["apple"]
+

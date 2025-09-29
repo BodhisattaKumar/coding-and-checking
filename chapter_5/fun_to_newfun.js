@@ -8,20 +8,3 @@ function greaterThan(n) {
 var greaterThan10 = greaterThan(10);
 
 console.log(greaterThan10(11)); 
-
-
-
-function filter(array, test) {
-  let result = [];
-  array.forEach(function(element) {
-    if (test(element)) result.push(element);
-  });
-  return result;
-}
-
-// Usage:
-console.log(filter([1,2,3,4,5,6], n => n % 2 === 0));
-// → [2,4,6]
-
-console.log(filter(["apple","bat","cat"], w => w.length > 3));
-// → ["apple"]
